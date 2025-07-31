@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community | EcoNest</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f8f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #558b2f;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: #33691e;
+    }
+
+    .section {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .section h3 {
+      margin-top: 0;
+      color: #4caf50;
+    }
+
+    .forum-list li, .stories li {
+      padding: 1rem;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 1rem;
+    }
+
+    .story-comment, .forum-comment {
+      margin-top: 0.75rem;
+    }
+
+    .story-comment textarea, .forum-comment textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+    }
+
+    .story-comment button, .forum-comment button {
+      background-color: #7cb342;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .story-comment button:hover, .forum-comment button:hover {
+      background-color: #558b2f;
+    }
+
+    .newsletter, .social {
+      text-align: center;
+    }
+
+    .newsletter input {
+      padding: 0.5rem;
+      width: 60%;
+      max-width: 300px;
+      margin-right: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .newsletter button {
+      padding: 0.5rem 1rem;
+      background-color: #7cb342;
+      border: none;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .newsletter button:hover {
+      background-color: #558b2f;
+    }
+
+    .social a {
+      margin: 0 0.5rem;
+      display: inline-block;
+      color: #558b2f;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    .cta a {
+      background-color: #7cb342;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .cta a:hover {
+      background-color: #558b2f;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Welcome to the EcoNest Community</h2>
+    <p>Connect with other eco-home builders, share ideas, and inspire one another as we build a greener future together.</p>
+
+    <!-- Forum Section -->
+    <div class="section">
+      <h3>💬 Community Forum</h3>
+      <ul class="forum-list">
+        <li>
+          <strong>Best solar panels in 2025?</strong>
+          <div class="forum-comment">
+            <textarea placeholder="Reply to this thread..."></textarea>
+            <button>Post Reply</button>
+          </div>
+        </li>
+        <li>
+          <strong>Anyone tried straw bale insulation?</strong>
+          <div class="forum-comment">
+            <textarea placeholder="Reply to this thread..."></textarea>
+            <button>Post Reply</button>
+          </div>
+        </li>
+        <li>
+          <strong>Green roof tips</strong>
+          <div class="forum-comment">
+            <textarea placeholder="Reply to this thread..."></textarea>
+            <button>Post Reply</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Stories -->
+    <div class="section">
+      <h3>🏡 Real Stories</h3>
+      <ul class="stories">
+        <li>
+          <p><strong>Maya & Arvind from Kerala:</strong> “We built our bamboo home in 8 months, completely off-grid!”</p>
+          <div class="story-comment">
+            <textarea placeholder="Leave a comment..."></textarea>
+            <button>Comment</button>
+          </div>
+        </li>
+        <li>
+          <p><strong>Joseph from Pune:</strong> “Our family of four lives comfortably in a 600 sq ft straw bale house.”</p>
+          <div class="story-comment">
+            <textarea placeholder="Leave a comment..."></textarea>
+            <button>Comment</button>
+          </div>
+        </li>
+        <li>
+          <p><strong>Li from Himachal:</strong> “The rammed earth walls keep us warm in winter and cool in summer.”</p>
+          <div class="story-comment">
+            <textarea placeholder="Leave a comment..."></textarea>
+            <button>Comment</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="section newsletter">
+      <h3>📬 Subscribe to Our Eco-Newsletter</h3>
+      <p>Get monthly tips, new ideas, and real stories from eco-home builders like you.</p>
+      <input type="email" placeholder="Your email address" />
+      <button>Subscribe</button>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="section social">
+      <h3>📱 Follow Us</h3>
+      <a href="#" title="Facebook">🌐</a>
+      <a href="#" title="Twitter / X">🐦</a>
+      <a href="#" title="Instagram">📷</a>
+      <a href="#" title="YouTube">▶️</a>
+    </div>
+
+    <div class="cta">
+      <a href="#">Join the Community</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 EcoNest. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
